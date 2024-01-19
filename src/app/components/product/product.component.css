@@ -1,0 +1,35 @@
+.belowNavBar {
+    display: flex;
+    max-width: 1280px;
+    color: #212121;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.smallCard {
+    /* border: 2px solid red; */
+    width: 94px;
+    height: 112px;
+    padding: 10px;
+    margin: 0px 20px;
+}
+.smallCard img {
+    border: none;
+}
+
+.card {
+    height: 64px;
+    width: 64px;
+}
+
+
+.smallCard p {
+    text-decoration: none;
+    width: 100px;
+}
+
+.line {
+    width: 100%;
+    border: none;
+    border-top: 8px solid rgba(213, 207, 207, 0.617);
+}

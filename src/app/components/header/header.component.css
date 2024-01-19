@@ -1,0 +1,114 @@
+/* .form-control{
+    border-radius: 3px;
+    width: 600px;
+    margin-left: 20px;
+} */
+
+.navBar {
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logoSection {
+    width: 80px;
+    display: inline;
+    margin: 2px 0px 2px 170px;
+}
+
+.flipkart-logo {
+    width: 75px;
+    height: 20.11px;
+    margin-top: 15px;
+}
+
+.logo-text {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-style: italic;
+    width: 75px;
+    height: 15.4px;
+    margin-bottom: 15px;
+}
+
+
+
+#plus {
+    color: #ffe500;
+    font-size: 11px;
+}
+
+.searchBox {
+    width: 340px;
+    display: flex;
+    margin-right: 10px;
+}
+
+.input {
+    height: 36px;
+    width: 564px;
+    border-radius: 5px;
+    padding: 0 16px;
+    border-radius: 2px 0 0 2px;
+    border: 0;
+    outline: 0 none;
+
+}
+
+.search-logo {
+    height: 36px;
+    width: 44px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    cursor: pointer;
+    padding: 4px 12px 2px 8px;
+    background-color: #fff;
+    border: 0;
+    outline: 0 none;
+    color: #2874f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBox {
+    margin-right: 10px;
+}
+
+.login {
+    color: #2874f0;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+}
+
+.becomeSellerBox {
+    width: 155px;
+    margin-right: 10px;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.moreBox {
+    width: 50px;
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.cartBox {
+    width: 65px;
+    margin-right: 150px;
+    align-items: center;
+    justify-content: center;
+}

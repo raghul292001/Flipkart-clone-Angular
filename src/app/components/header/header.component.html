@@ -1,0 +1,38 @@
+
+  <div class="navBar">
+
+    <div class="logoSection">
+      <div>
+        <img src="assets/images/flipkart-logo.png" routerLink="/" class="flipkart-logo" alt="flipkart-logo" />
+      </div>
+
+      <div>
+        <p class="logo-text">Explore <span id="plus">Plus+</span></p>
+      </div>
+    </div>
+
+    <div class="searchBox">
+      <input class="input" type="text" placeholder="Search for products, brands and more" />
+
+      <div class="search-logo">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+
+    <div class="loginBox">
+      <div class="login">Login</div>
+    </div>
+
+    <div class="becomeSellerBox">
+      <p>Become a Seller</p>
+    </div>
+
+    <div class="moreBox">
+      <p>More</p>
+    </div>
+
+    <div class="cartBox" routerLink="/cart">
+      <i class="fa-solid fa-cart-shopping" style="font-size: larger;"></i>
+      <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+    </div>
+  </div>
